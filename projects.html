@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.ico" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/projects.css" />
+
+  <style type="text/css">
+    .preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background-color: #fff;
+    }
+
+    .preloader .loading {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+
+  <!-- ajax -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <title>Portofolio | Daffa Fathan</title>
+</head>
+
+<body>
+  <!-- loader -->
+  <div class="preloader">
+    <div class="loading">
+      <img src="loader.gif" width="80">
+    </div>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/logo.png" alt="" width="70" style="margin-left: 40px" />
+    </a>
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="projects.html">Projects</a>
+        <div class="border-active"></div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Me</a>
+      </li>
+    </ul>
+    <img src="assets/img/bendera-indo.png" alt="" width="70" style="margin-right: 40px" />
+  </nav>
+  <div class="border-nav"></div>
+  <!-- end navbar -->
+
+  <!-- konten -->
+  <div class="container">
+    <ul class="gallery">
+      <li>
+        <a href="#gambar-1">
+          <img src="project/Hotel-Hebat/img/thumbnail_hotel_hebat_circle.png" alt="Hotel Hebat" />
+
+          <span>Clik Me!</span>
+        </a>
+
+        <div class="overlay" id="gambar-1">
+          <a href="#" class="close">x close</a>
+          <div class="card text-center m-auto" style="
+                width: 550px;
+                background-color: #474747;
+                border: 5px solid white;
+              ">
+            <img src="project/Hotel-Hebat/img/thumbnail_hotel_hebat.png" alt="Hotel Hebat" class="card-img-top" />
+            <div class="card-body">
+              <p class="card-text text-white">
+                Hotel hebat menerapkan web aplikasi reservasi kamar hotel yang
+                bertujuan untuk memudahkan pemesanan kamar di tanggal tertentu
+                dan dengan jumlah kamar yang tersedia secara real time.
+              </p>
+              <a href="project/Hotel-Hebat/index.html" class="btn bg-white btn-view">View Project</a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- <li style="margin-left: 50px">
+          <a href="#gambar-1">
+            <img
+              src="project/Hotel-Hebat/img/thumbnail hotel hebat.png"
+              alt="Hotel Hebat"
+            />
+
+            <span>view Project</span>
+          </a>
+
+          <div class="overlay" id="gambar-1">
+            <a href="#" class="close">x close</a>
+            <div
+              class="card text-center m-auto"
+              style="
+                width: 550px;
+                background-color: #474747;
+                border: 5px solid white;
+              "
+            >
+              <img
+                src="project/Hotel-Hebat/img/thumbnail hotel hebat.png"
+                alt="Hotel Hebat"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <p class="card-text text-white">
+                  Hotel hebat menerapkan web aplikasi reservasi kamar hotel yang
+                  bertujuan untuk memudahkan pemesanan kamar di tanggal tertentu
+                  dan dengan jumlah kamar yang tersedia secara real time.
+                </p>
+                <a href="#" class="btn bg-white btn-view">View Project</a>
+              </div>
+            </div>
+          </div>
+        </li> -->
+
+      <div class="clear"></div>
+    </ul>
+  </div>
+  <!-- end konten -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".preloader").fadeOut(1000);
+    })
+  </script>
+</body>
+
+</html>

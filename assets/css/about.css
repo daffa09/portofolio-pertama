@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: rgba(34, 34, 34, 1) !important;
+}
+
+/* start navbar */
+.border-nav {
+  width: 90%;
+  margin: auto;
+  border-bottom: 2px solid #868484 !important;
+}
+
+.nav {
+  font-size: 40px;
+}
+
+.nav-link {
+  color: #a9a9a9 !important;
+}
+
+.active {
+  color: #84ff89 !important;
+}
+
+.border-active {
+  width: 90%;
+  margin-left: 10px;
+  margin-top: -10px;
+  border-bottom: 2px solid #84ff89;
+}
+/* end navbar */
+
+/*! start konten */
+.container {
+  width: 100%;
+  height: 500px;
+}
+
+/* bagian header */
+.garis-merah {
+  left: 100px;
+  height: 350px;
+  width: 10px;
+  background-color: #d13e3e;
+  border-radius: 2px;
+  position: relative;
+  top: 90px;
+  right: 180px;
+}
+
+.container .header-kiri h3 {
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 8px;
+  position: relative;
+  bottom: 260px;
+  left: 120px;
+}
+
+.header-kiri a {
+  position: relative;
+  bottom: 260px;
+  left: 120px;
+  margin-left: 10px;
+}
+
+.header-kanan img {
+  position: relative;
+  bottom: 550px;
+  left: 800px;
+  border-radius: 50%;
+  border: 1px solid #682f2f;
+}
+
+/* akhir bagian header */
+
+/* bagian about me */
+.about-me {
+  width: 100%;
+  height: 500px;
+  background-color: #f1f1f1;
+  font-size: 20px;
+  color: black;
+  line-height: 25px;
+}
+
+.about-me h1,
+p {
+  padding: 0 50px 0 120px;
+}
+.about-me h1 {
+  text-align: center;
+  font-size: 64px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+/* akhir  about me */
+
+/* bagian my value */
+.my-value {
+  width: 100%;
+  padding-top: 20px;
+  height: 380px;
+  background-color: #243962;
+}
+
+.my-value h1 {
+  text-align: center;
+  font-size: 64px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.my-value h3 {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.pic1 {
+  position: relative;
+  left: 150px;
+}
+
+.pic2 {
+  position: relative;
+  left: 545px;
+}
+
+.pic3 {
+  position: relative;
+  left: 970px;
+}
+
+/* akhir my value */
+
+/* bagian developer field */
+.developer-field {
+  padding-top: 50px;
+  width: 100%;
+  height: 400px;
+  background-color: #d4d4d4;
+}
+
+.developer-field h1 {
+  text-align: center;
+  font-size: 64px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.developer-field h3 {
+  margin: 50px 250px;
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+}
+/* akhir developer  field */
+
+/* bagian lest connect */
+.lets-connect {
+  width: 100%;
+  height: 350px;
+  background-color: #f1f1f1;
+}
+
+.lets-connect h4 {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.lets-connect p {
+  position: relative;
+  top: 55px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.lets-connect a {
+  position: relative;
+  background-color: #50a1ff;
+  top: 50px;
+  text-align: center;
+  left: 700px;
+}
+/* akhir lest connect */
+
+/* footer */
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 18px;
+  color: #c7c7c7;
+}
+/* akhir footer */
+/*! end konten */

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/logo.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ajax -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background-color: #fff;
+        }
+
+        .preloader .loading {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+    <title>Portofolio | Daffa Fathan</title>
+</head>
+
+<body>
+
+    <!-- loader -->
+    <div class="preloader">
+        <div class="loading">
+            <img src="../../loader.gif" width="80">
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-dark">
+        <a class="navbar-brand" href="../../index.html">
+            <img src="../../assets/img/logo.png" alt="" width="70" style="margin-left: 40px" />
+        </a>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="../../projects.html">Projects</a>
+                <div class="border-active"></div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../about.html">About Me</a>
+            </li>
+        </ul>
+        <img src="../../assets/img/bendera-indo.png" alt="" width="70" style="margin-right: 40px" />
+    </nav>
+    <div class="border-nav"></div>
+    <!-- end navbar -->
+
+    <!-- konten -->
+    <div class="container">
+        <img src="../Hotel-Hebat/img/thumbnail_hotel_hebat.png" width="1100" alt="Thumbnail Hotel Hebat"
+            style="margin-left: 80px; margin-bottom: 20px" />
+    </div>
+
+    <div class="container-fluid detail">
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <h1>Hotel Hebat Definition</h1>
+            </div>
+            <div class="col-md-9">
+                <p id="definisi">
+                    Hotel merupakan tempat untuk bermalam jika pergi ke tempat yang
+                    cukup jauh dan memakan waktu lebih dari sehari, namun sebelum
+                    bermalam diperlukan reservasi atau boking kamar hotelnya terlebih
+                    dahulu. Di zaman digital seperti ini reservasi kamar hotel akan
+                    menjadi lebih mudah jika menggunakan web aplikasi khusus untuk
+                    melakukan reservasi kamar.<br /><br />
+                    Hotel hebat menerapkan web aplikasi reservasi kamar hotel yang
+                    bertujuan untuk memudahkan pemesanan kamar di tanggal tertentu dan
+                    dengan jumlah kamar yang tersedia secara real time.
+                </p>
+                <!-- role section -->
+                <div class="row partial-section">
+                    <div class="col-md-3">
+                        <ul>
+                            <li>
+                                <h4>Role</h4>
+                            </li>
+                            <li>User Interview</li>
+                            <li>Database Administrator</li>
+                            <li>Full Stak Website Developer</li>
+                            <li>UI Design</li>
+                        </ul>
+                    </div>
+                    <!-- Tool Used Section -->
+                    <div class="col-md-3">
+                        <ul>
+                            <li>
+                                <h4>Tool Used</h4>
+                            </li>
+                            <li>Figma</li>
+                            <li>Visual Studio Code</li>
+                            <li>Xampp</li>
+                            <li>Email</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+                    <!-- Time Section -->
+                    <div class="col-md-3">
+                        <ul>
+                            <li>
+                                <h4>Time</h4>
+                            </li>
+                            <li>3 Bulan</li>
+                            <li>12 Frame</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <h1>Problem And Challenge</h1>
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Web Aplikasi reservasi hotel hebat dibuat untuk memudahkan pemesanan kamar bagi para konsumen
+                        maupun karyawan hotel hebat itu sendiri, dengan adanya aplikasi ini hotel hebat yakin kedepanya
+                        akan semakin mudah dan efesien dalam melakukan pemesanan kamar. Namun dalam proses pembuatan nya
+                        terdapat beberapa tantangan dan masalah.<br><br>
+                        Tantangan yang didapatkan saat mengerjakan project ini adalah :<br>
+                    <ul>
+                        <li>melakukan research dan interview orang lain untuk kebutuhan aplikasi ini</li>
+                        <li>sulit nya membuat fitur cek kamar dengan banyak cara pemesanan</li>
+                        <li>membuat fitur kirim email untuk semua pemesanan pending, check-in, check-out dan batal</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <h1>Solution</h1>
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Solusi dari tantangan yang dihadapi adalah :<br>
+                    <ul>
+                        <li>menentukan orang tertentu yang diharapapkan paling membantu dalam aplikasi ini, ini
+                            bertujuan agar aplikasi menjadi lebih ter arah dan tidak ada pemasukan yang keliru.</li>
+                        <li>melakukan research dan mencoba dengan cara sendiri membuat fitur tersebut</li>
+                        <li>Dalam membuat fitur kirim email solusi nya dengan mencari cara membuat fitur ini melalui
+                            kanal youtube dan dokumentasi framework yang digunakan(dalam kasus ini menggunakan laravel
+                            9)</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-white diagram">
+        <!-- planing project -->
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5 pt-5">
+                <h1>Planning Project</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="garis-hitam1"></div>
+            </div>
+            <img src="../Hotel-Hebat/img/plan1.jpg" alt="Plan 1" class="mb-3">
+            <img src="../Hotel-Hebat/img/plan2.jpg" alt="Plan 2" class="mb-5">
+        </div>
+
+        <!-- Prototype modeling -->
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5">
+                <h1>Prototype Modeling</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="garis-hitam2"></div>
+            </div>
+            <img src="../Hotel-Hebat/img/Prototype.png" alt="Prototype Modeling" class="mb-5">
+        </div>
+
+        <!-- use case -->
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5">
+                <h1>Use Case</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="garis-hitam3"></div>
+            </div>
+            <img src="../Hotel-Hebat/img/Use_Case.png" alt="Use Case" class="mb-5">
+        </div>
+
+        <!-- erd -->
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5">
+                <h1>ERD</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="garis-hitam4"></div>
+            </div>
+            <img src="../Hotel-Hebat/img/ERD.png" alt="ERD" class="mb-5">
+        </div>
+
+        <!-- class diagram -->
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5">
+                <h1>Class Diagram</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="garis-hitam5"></div>
+            </div>
+            <img src="../Hotel-Hebat/img/class_diagram.png" alt="Class Diagram" class="mb-5">
+        </div>
+
+        <!-- Activity diagram -->
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5">
+                <h1>Activity Diagram</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="garis-hitam6"></div>
+            </div>
+            <img src="../Hotel-Hebat/img/Activity_Diagram.png" alt="Activity Diagram" class="mb-5 activity-diagram">
+        </div>
+
+        <!-- flowchart -->
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5">
+                <h1>Flowchart User</h1>
+            </div>
+            <div class="col-md-8">
+                <div class="garis-hitam7"></div>
+            </div>
+            <img src="../Hotel-Hebat/img/Flowchart.png" alt="Flowchart User" class="mb-5 flowcahrt">
+        </div>
+    </div>
+    <!-- figma prototype -->
+    <div class="figma">
+        <h1>Prototype User Flow</h1>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="977" height="531"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQB8coKm9VMh76cej7ESL2K%2FReservasi-Hotel-Hebat%3Fpage-id%3D0%253A1%26node-id%3D102%253A4%26viewport%3D818%252C1870%252C0.24%26scaling%3Dscale-down%26starting-point-node-id%3D102%253A4"
+            allowfullscreen class="proto"></iframe>
+        <h3>Project Documentation in Github :</h3> <a href="https://github.com/daffa09/Hotel-Hebat"
+            target="_blank">https://github.com/daffa09/Hotel-Hebat</a>
+    </div>
+
+    <!-- tombol back to top -->
+    <div class="backto">
+        <a href="#definisi" class="btn tombol-back">Back To Top</a>
+    </div>
+
+    <footer>© 2022 by Daffa Fathan. All rights reserved.</footer>
+    <!-- end konten -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".preloader").fadeOut(2000);
+        })
+    </script>
+</body>
+
+</html>

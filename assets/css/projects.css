@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(34, 34, 34, 1) !important;
+}
+
+/* start navbar */
+.border-nav {
+  width: 90%;
+  margin: auto;
+  border-bottom: 2px solid #868484 !important;
+}
+
+.nav {
+  font-size: 40px;
+}
+
+.nav-link {
+  color: #a9a9a9 !important;
+}
+
+.active {
+  color: #84ff89 !important;
+}
+
+.border-active {
+  width: 85%;
+  margin-left: 13px;
+  margin-top: -10px;
+  border-bottom: 2px solid #84ff89;
+}
+
+/* end navbar */
+
+/* start konten */
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+}
+
+.gallery li {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border: 5px solid #84ff89;
+  float: left;
+  margin-top: 50px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.gallery li,
+.gallery li span {
+  border-radius: 50%;
+}
+
+.gallery li span {
+  display: block;
+  font-size: 30px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(200, 200, 200, 0.5);
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 250px;
+  color: #222222;
+  text-shadow: 1px 1px 1px #ddd;
+  opacity: 0;
+  transform: scale(1) rotate(0);
+  transition: 0.3s;
+}
+
+.gallery li:hover {
+  border: 5px dashed #84ff89;
+}
+
+.gallery li a:hover span {
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
+}
+
+.clear {
+  clear: both;
+}
+
+/* overlay */
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: 0.8s;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay img {
+  max-height: 100%;
+  border-bottom: 3px solid white;
+  padding: 5px;
+}
+
+.overlay:target img {
+  animation: faded 1s;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -30px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 14px;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 1;
+}
+
+.overlay:target .close {
+  animation: slideDownFade 0.5s 0.5s forwards;
+}
+
+.overlay:target .next,
+.overlay:target .prev {
+  animation: faded 0.5s 0.5s forwards;
+}
+
+.btn-view {
+  width: 180px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+/* end konten */

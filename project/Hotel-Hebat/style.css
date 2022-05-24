@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgba(34, 34, 34, 1) !important;
+}
+
+/* start navbar */
+.border-nav {
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid #868484 !important;
+}
+
+.nav .nav-item a {
+    font-size: 40px;
+}
+
+.nav-link {
+    color: #a9a9a9 !important;
+}
+
+.active {
+    color: #84ff89 !important;
+}
+
+.border-active {
+    width: 85%;
+    margin-left: 13px;
+    margin-top: -10px;
+    border-bottom: 2px solid #84ff89;
+}
+
+/* end navbar */
+
+/* start konten */
+.detail {
+    background-color: #f1f1f1;
+    padding: 20px 100px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+.partial-section ul {
+    list-style: none;
+}
+
+li,
+p {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/* baigan gambar diagram */
+
+.diagram {
+    margin-top: -50px;
+}
+
+.row img {
+    width: 80%;
+    margin: auto;
+}
+
+.row .activity-diagram,
+.row .flowcahrt {
+    width: 50%;
+}
+
+.row h1 {
+    padding-left: 65px;
+}
+
+.garis-hitam1 {
+    position: relative;
+    top: 70px;
+    right: 130px;
+    border: 1px solid black;
+}
+
+.garis-hitam2 {
+    position: relative;
+    top: 25px;
+    right: 80px;
+    border: 1px solid black;
+}
+
+.garis-hitam3 {
+    width: 1170px;
+    position: relative;
+    top: 25px;
+    right: 270px;
+    border: 1px solid black;
+}
+
+.garis-hitam4 {
+    width: 1260px;
+    position: relative;
+    top: 25px;
+    right: 350px;
+    border: 1px solid black;
+}
+
+.garis-hitam5 {
+    width: 1090px;
+    position: relative;
+    top: 25px;
+    right: 180px;
+    border: 1px solid black;
+}
+
+.garis-hitam6 {
+    width: 1050px;
+    position: relative;
+    top: 25px;
+    right: 140px;
+    border: 1px solid black;
+}
+
+.garis-hitam7 {
+    width: 1070px;
+    position: relative;
+    top: 25px;
+    right: 170px;
+    border: 1px solid black;
+}
+
+/* akhir gambar diagram */
+
+/* figma protoype */
+.figma {
+    background-color: #772B2B;
+}
+
+.figma h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.figma .proto {
+    position: relative;
+    left: 250px;
+}
+
+.figma h3 {
+    position: relative;
+    left: 100px;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.figma a {
+    position: relative;
+    bottom: 65px;
+    left: 780px;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+
+/* akhir bagian figma */
+
+/* bagian back to top */
+.backto {
+    width: 100%;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+
+.tombol-back {
+    color: white;
+    background-color: #153050;
+    font-weight: bold;
+    position: relative;
+    left: 700px;
+    top: 80px;
+    text-align: center;
+}
+
+.tombol-back:hover {
+    color: white;
+    background-color: #50A1FF;
+}
+
+/* akhir back to top */
+
+/* footer */
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 18px;
+    color: #c7c7c7;
+}
+
+/* akhir footer */
+/* end konten */

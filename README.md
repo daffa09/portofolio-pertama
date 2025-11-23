@@ -2,10 +2,12 @@
 <!-- slug: portofolio-pertama -->
 <!-- title: Portofolio Pertama -->
 <!-- description: My first portfolio website with simple layout built with HTML, CSS, and JavaScript -->
-<!-- image: https://github.com/user-attachments/assets/placeholder-portofolio-pertama -->
+<!-- image: https://github.com/user-attachments/assets/33e78d8e-a3e0-45f5-92d4-70d7669c1627 -->
 <!-- tags: html, css, javascript, portfolio, github-pages -->
 
 # My First Portfolio (Portofolio Pertama)
+
+<img width="1905" height="898" alt="image" src="https://github.com/user-attachments/assets/33e78d8e-a3e0-45f5-92d4-70d7669c1627" />
 
 My very first portfolio website, showcasing the beginning of my web development journey. Built with pure HTML, CSS, and JavaScript, this simple yet meaningful project represents an important milestone in my learning path.
 
